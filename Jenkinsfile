@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage(Print message){
+		stage('Print message'){
 			steps{
 				sh "echo welcome"
 			}
